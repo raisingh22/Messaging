@@ -1,0 +1,20 @@
+import { StyleSheet, Text, View } from 'react-native'
+import React from 'react'
+import { COLORS } from '../constants'
+
+const Welcome = () => {
+  return (
+    <View>
+      <Text>Welcome</Text>
+    </View>
+  )
+}
+
+export default Welcome
+
+const styles = StyleSheet.create({
+  area:{
+    flex:1,
+    backgroundColor:COLORS
+  }
+})
